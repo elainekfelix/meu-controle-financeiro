@@ -1,0 +1,8 @@
+MEU CONTROLE FINANCEIRO - APP INSTALÁVEL
+
+1. Publique todos os arquivos desta pasta juntos em uma hospedagem HTTPS estática (por exemplo, GitHub Pages ou Netlify).
+2. Abra o endereço HTTPS no Chrome do Android.
+3. No menu ⋮ do Chrome, escolha Instalar app ou Adicionar à tela inicial.
+4. Antes de cadastrar tudo, faça um teste: crie um lançamento, feche e abra o app, confira se continua salvo e exporte um backup JSON.
+
+ATENÇÃO: abrir index.html diretamente na pasta Downloads NÃO instala o PWA. A instalação não recupera lançamentos perdidos. O armazenamento é local por origem HTTPS e não sincroniza entre dispositivos. Preserve o mesmo endereço do site em futuras atualizações. Faça backup JSON com frequência.
