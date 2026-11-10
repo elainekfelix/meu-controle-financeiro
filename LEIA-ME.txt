@@ -1,8 +1,9 @@
-MEU CONTROLE FINANCEIRO - APP INSTALÁVEL
+MEU CONTROLE FINANCEIRO 3.0
 
-1. Publique todos os arquivos desta pasta juntos em uma hospedagem HTTPS estática (por exemplo, GitHub Pages ou Netlify).
-2. Abra o endereço HTTPS no Chrome do Android.
-3. No menu ⋮ do Chrome, escolha Instalar app ou Adicionar à tela inicial.
-4. Antes de cadastrar tudo, faça um teste: crie um lançamento, feche e abra o app, confira se continua salvo e exporte um backup JSON.
+Atualize no GitHub os arquivos index.html e service-worker.js (ou todos os arquivos do pacote), mantendo o mesmo repositório e URL. NUNCA envie backups ou dados pessoais ao GitHub.
 
-ATENÇÃO: abrir index.html diretamente na pasta Downloads NÃO instala o PWA. A instalação não recupera lançamentos perdidos. O armazenamento é local por origem HTTPS e não sincroniza entre dispositivos. Preserve o mesmo endereço do site em futuras atualizações. Faça backup JSON com frequência.
+Os dados existentes no mesmo endereço do GitHub Pages continuam no localStorage com a chave original. Antes de atualizar, exporte seu backup JSON.
+
+Novo: backup criptografado AES-256-GCM com senha de no mínimo 12 caracteres, derivação PBKDF2-SHA256, 250000 iterações. Importação de backups anteriores JSON e do novo formato protegido. A criptografia é do arquivo exportado; os dados em uso continuam sem criptografia no armazenamento local. O download exige confirmação pelo usuário e não é automático.
+
+Depois de publicar, abra o app online uma vez para atualizar o cache e feche/reabra. Teste a recuperação do backup antes de depender do aplicativo.
