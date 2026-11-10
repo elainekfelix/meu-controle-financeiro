@@ -1,9 +1,1 @@
-MEU CONTROLE FINANCEIRO 3.0
-
-Atualize no GitHub os arquivos index.html e service-worker.js (ou todos os arquivos do pacote), mantendo o mesmo repositório e URL. NUNCA envie backups ou dados pessoais ao GitHub.
-
-Os dados existentes no mesmo endereço do GitHub Pages continuam no localStorage com a chave original. Antes de atualizar, exporte seu backup JSON.
-
-Novo: backup criptografado AES-256-GCM com senha de no mínimo 12 caracteres, derivação PBKDF2-SHA256, 250000 iterações. Importação de backups anteriores JSON e do novo formato protegido. A criptografia é do arquivo exportado; os dados em uso continuam sem criptografia no armazenamento local. O download exige confirmação pelo usuário e não é automático.
-
-Depois de publicar, abra o app online uma vez para atualizar o cache e feche/reabra. Teste a recuperação do backup antes de depender do aplicativo.
+Meu Controle Financeiro 3.1 — atualize index.html e service-worker.js no mesmo repositório GitHub Pages. Não desinstale o PWA. Faça backup criptografado ANTES de atualizar. Compras parceladas, alertas internos, relatórios, metas e pesquisa. Dados continuam locais.
