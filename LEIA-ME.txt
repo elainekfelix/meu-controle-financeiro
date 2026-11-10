@@ -1,1 +1,7 @@
-Meu Controle Financeiro 3.1 — atualize index.html e service-worker.js no mesmo repositório GitHub Pages. Não desinstale o PWA. Faça backup criptografado ANTES de atualizar. Compras parceladas, alertas internos, relatórios, metas e pesquisa. Dados continuam locais.
+Meu Controle Financeiro 3.2
+
+ANTES DE ATUALIZAR: exporte um backup criptografado e confira o arquivo.
+Envie index.html e service-worker.js ao GitHub, substituindo os existentes.
+Nao desinstale o app nem limpe os dados do navegador.
+A nova versao oferece navegacao responsiva por secoes, lista de compras parceladas, backup recolhivel e aviso de atualizacao.
+Os dados permanecem locais e a senha do backup nao e armazenada.
